@@ -7,7 +7,6 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 - [Starter Files](#starter_files)
 
 ## Requirements:
-- iOS 8.0+
 - Xcode 8.1+
 - Swift 3.0+
 
