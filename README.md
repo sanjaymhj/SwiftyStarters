@@ -7,7 +7,6 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 - [Starter Files](#starter_files)
 
 ## Requirements:
-- iOS 8.0+ / tvOS 9.0+ / watchOS 3.0+ / macOS 10.10+
 - Xcode 8.1+
 - Swift 3.0+
 
@@ -17,4 +16,6 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 - Proper Documentation within code.
 
 ### Starter Files:
-- .gitIgnore
+- [.gitIgnore](./StarterFiles/.gitIgnore)
+- [Podfile](./StarterFiles/Podfile)
+- [Cartfile](./StarterFiles/Cartfile)

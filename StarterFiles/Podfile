@@ -1,0 +1,23 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#platform :ios, '9.0'
+use_frameworks!
+
+def default_pods
+
+  pod 'Alamofire' # Alamofire is an HTTP networking library written in Swift.
+  pod 'AlamofireNetworkActivityIndicator' # Controls the visibility of the network activity indicator on iOS using Alamofire.
+  pod 'MBProgressHUD' # MBProgressHUD is an iOS drop-in class that displays a translucent HUD with an indicator and/or labels while work is being done in a background thread.
+  pod 'SwiftyJSON' # SwiftyJSON makes it easy to deal with JSON data in Swift.
+
+  ##
+  # Additional depencency here.
+  # See https://guides.cocoapods.org/syntax/podfile.html#pod for pod syntax.
+  # Include basic function of the dependency.
+
+end
+
+target 'ProjectName' do
+
+  default_pods
+
+end
