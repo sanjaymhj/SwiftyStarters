@@ -5,6 +5,7 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 - [Requirements](#requirements)
 - [How to contribute](#how-to-contribute)
 - [Starter Files](#starter_files)
+- [Extensions](#extensions)
 
 ## Requirements:
 - Xcode 8.1+
@@ -19,3 +20,6 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 - [.gitIgnore](./StarterFiles/.gitIgnore)
 - [Podfile](./StarterFiles/Podfile)
 - [Cartfile](./StarterFiles/Cartfile)
+
+### Extensions:
+- [UIColor](./Extensions/UIColor+Extension.swift)
