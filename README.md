@@ -24,6 +24,5 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 ### Extensions:
 - [UIColor](./Extensions/UIColor+Extension.swift)
 	#### Usage:
-	- Initialize color from hex color code.
-	
+	- Initialize color from hex color code.  
 	`let materialBlue = UIColor(hex: 0x2196F3)`
