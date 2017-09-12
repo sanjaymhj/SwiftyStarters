@@ -43,7 +43,7 @@ extension UITableView {
     self.register(T.self, forCellReuseIdentifier: T.reuseIdentifier)
   }
   
-  func dequeueReusableCell<T: UITableViewCell>(forIndexPath indexPath: IndexPath) -> T? where T: ReusableView {
+  func dequeueReusableCell<T: UITableViewCell>(forIndexPath indexPath: IndexPath) -> T where T: ReusableView {
     guard let cell = self.dequeueReusableCell(withIdentifier: T.reuseIdentifier, for: indexPath) as? T else {
         fatalError("Could not dequeue cell with identifier: \(T.reuseIdentifier)")
     }
@@ -67,7 +67,7 @@ extension UICollectionView {
     self.register(T.nib, forCellWithReuseIdentifier: T.reuseIdentifier)
   }
   
-  func dequeueReusableCell<T: UICollectionViewCell>(forIndexPath indexPath: IndexPath) -> T? where T: ReusableView {
+  func dequeueReusableCell<T: UICollectionViewCell>(forIndexPath indexPath: IndexPath) -> T where T: ReusableView {
     guard let cell = self.dequeueReusableCell(withReuseIdentifier: T.reuseIdentifier, for: indexPath) as? T else {
       fatalError("Could not dequeue cell with identifier: \(T.reuseIdentifier)")
     }

@@ -33,5 +33,5 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 	`tableView.register(TestCell.self)`
 	`collectionView.register(TestCVCell.self)`
 	- Dequeue cells without string literals.  
-	`guard let cell: TestCell = tableView.dequeueReusableCell(forIndexPath: indexPath) else { return UITableViewCell() }`
-	`guard let testCVCell: TestCVCell = collectionView.dequeueReusableCell(forIndexPath: indexPath) else { return UICollectionViewCell() }`
+	`let cell: TestCell = tableView.dequeueReusableCell(forIndexPath: indexPath)`  
+	`let testCVCell: TestCVCell = collectionView.dequeueReusableCell(forIndexPath: indexPath)`  
