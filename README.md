@@ -23,3 +23,4 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 
 ### Extensions:
 - [UIColor](./Extensions/UIColor+Extension.swift)
+- [CALayer](./Extensions/CALayer+Extension.swift)
