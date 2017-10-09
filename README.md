@@ -22,5 +22,21 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 - [Cartfile](./StarterFiles/Cartfile)
 
 ### Extensions:
-- [UIColor](./Extensions/UIColor+Extension.swift)
 - [CALayer](./Extensions/CALayer+Extension.swift)
+  - `animateWithDuration(duration: TimeInterval, animation: () -> Void, completion: (() -> Void)?)`
+  - Animate CALayer
+
+- [UIColor](./Extensions/UIColor+Extension.swift)
+  - `init(hex: Int, alpha: CGFloat = 1.0)`
+	- Initialize color from hex color code.  
+  #### Usage:
+	`let materialBlue = UIColor(hex: 0x2196F3)`
+
+- [UITableView, UICollectionViewCell](./Extensions/UIView+Extension.swift)
+	#### Usage:
+	- Register cells from nib without creating nib instance.  
+	`tableView.register(TestCell.self)`
+	`collectionView.register(TestCVCell.self)`
+	- Dequeue cells without string literals.  
+	`let cell: TestCell = tableView.dequeueReusableCell(forIndexPath: indexPath)`  
+	`let testCVCell: TestCVCell = collectionView.dequeueReusableCell(forIndexPath: indexPath)`  
