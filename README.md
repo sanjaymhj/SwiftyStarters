@@ -38,5 +38,5 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 
 - [Dispatch Queue](./Utils/delay.swift)
 	- Delay the block for provided time asynchronously.
-	### Usage:
+	#### Usage:
 	`delayAsync(afterSecond: 6) { \* Delay code here *\ }`
