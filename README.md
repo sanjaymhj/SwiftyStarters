@@ -36,7 +36,7 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 	`let cell: TestCell = tableView.dequeueReusableCell(forIndexPath: indexPath)`  
 	`let testCVCell: TestCVCell = collectionView.dequeueReusableCell(forIndexPath: indexPath)`  
 
-- [Dispatch Queue]
+- [Dispatch Queue](./Utils/delay.swift)
 	- Delay the block for provided time asynchronously.
 	### Usage:
 	`delayAsync(afterSecond: 6) { \* Delay code here *\ }`
