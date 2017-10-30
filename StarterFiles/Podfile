@@ -8,6 +8,8 @@ def default_pods
   pod 'AlamofireNetworkActivityIndicator' # Controls the visibility of the network activity indicator on iOS using Alamofire.
   pod 'MBProgressHUD' # MBProgressHUD is an iOS drop-in class that displays a translucent HUD with an indicator and/or labels while work is being done in a background thread.
   pod 'SwiftyJSON' # SwiftyJSON makes it easy to deal with JSON data in Swift.
+  pod 'IQKeyboardManager' #IQKeyboardManager allows us to prevent issues of the keyboard sliding up and covering UITextField/UITextView without any code and initial setup.
+  pod 'InputMask' #InputMask allows to format user input on the fly according to the provided mask and to extract valueable characters.
 
   ##
   # Additional depencency here.
