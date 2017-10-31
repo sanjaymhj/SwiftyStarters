@@ -23,5 +23,14 @@ public extension String {
   func contains(substring: String) -> Bool {
     return self.contains(substring)
   }
-  
+
+  /**
+  :return: numeric digits contained in a string.
+  */
+  func numericDigits() -> String {
+    let stringArray = components(separatedBy: NSCharacterSet.decimalDigits.inverted)
+    let newString = stringArray.joined(separator: "")
+    return newString
+  }
+
 }
