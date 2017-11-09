@@ -22,9 +22,14 @@ Swifty Starters includes the extensions and basic files required for kickstartin
 - [Cartfile](./StarterFiles/Cartfile)
 
 ### Extensions:
+- [CALayer](./Extensions/CALayer+Extension.swift)
+  - `animateWithDuration(duration: TimeInterval, animation: () -> Void, completion: (() -> Void)?)`
+  - Animate CALayer
+
 - [UIColor](./Extensions/UIColor+Extension.swift)
-	#### Usage:
+  - `init(hex: Int, alpha: CGFloat = 1.0)`
 	- Initialize color from hex color code.  
+  #### Usage:
 	`let materialBlue = UIColor(hex: 0x2196F3)`
 
 - [UITableView, UICollectionViewCell](./Extensions/UIView+Extension.swift)
