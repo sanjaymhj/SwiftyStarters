@@ -3,6 +3,8 @@ github "Alamofire/Alamofire"  # Alamofire is an HTTP networking library written 
 github "Alamofire/AlamofireNetworkActivityIndicator"  # Controls the visibility of the network activity indicator on iOS using Alamofire.
 github "jdg/MBProgressHUD"  # MBProgressHUD is an iOS drop-in class that displays a translucent HUD with an indicator and/or labels while work is being done in a background thread.
 github "SwiftyJSON/SwiftyJSON"  # SwiftyJSON makes it easy to deal with JSON data in Swift.
+github "hackiftekhar/IQKeyboardManager" #IQKeyboardManager allows us to prevent issues of the keyboard sliding up and covering UITextField/UITextView without any code and initial setup.
+git "https://github.com/RedMadRobot/input-mask-ios.git" #InputMask allows to format user input on the fly according to the provided mask and to extract valueable characters.
 
 
 ##
